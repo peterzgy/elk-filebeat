@@ -1,0 +1,38 @@
+2020-11-25T18:00:38.066+0800	INFO	instance/beat.go:606	Home path: [/root/filebeat-7.3.0-linux-x86_64] Config path: [/root/filebeat-7.3.0-linux-x86_64] Data path: [/root/filebeat-7.3.0-linux-x86_64/data] Logs path: [/root/filebeat-7.3.0-linux-x86_64/logs]
+2020-11-25T18:00:38.066+0800	INFO	instance/beat.go:614	Beat ID: 36ac9f96-3a77-41d3-8315-06b84a359798
+2020-11-25T18:00:38.067+0800	INFO	[seccomp]	seccomp/seccomp.go:101	Syscall filter could not be installed because the kernel does not support seccomp
+2020-11-25T18:00:38.067+0800	INFO	[beat]	instance/beat.go:902	Beat info	{"system_info": {"beat": {"path": {"config": "/root/filebeat-7.3.0-linux-x86_64", "data": "/root/filebeat-7.3.0-linux-x86_64/data", "home": "/root/filebeat-7.3.0-linux-x86_64", "logs": "/root/filebeat-7.3.0-linux-x86_64/logs"}, "type": "filebeat", "uuid": "36ac9f96-3a77-41d3-8315-06b84a359798"}}}
+2020-11-25T18:00:38.067+0800	INFO	[beat]	instance/beat.go:911	Build info	{"system_info": {"build": {"commit": "6f0ec01a0e57fe7d4fd703b017fb5a2f6448d097", "libbeat": "7.3.0", "time": "2019-07-24T17:39:34.000Z", "version": "7.3.0"}}}
+2020-11-25T18:00:38.067+0800	INFO	[beat]	instance/beat.go:914	Go runtime info	{"system_info": {"go": {"os":"linux","arch":"amd64","max_procs":8,"version":"go1.12.4"}}}
+2020-11-25T18:00:38.067+0800	INFO	[beat]	instance/beat.go:918	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2020-11-23T09:30:05+08:00","containerized":false,"name":"local220","ip":["127.0.0.1/8","10.0.0.220/24"],"kernel_version":"3.10.0-693.el7.x86_64","mac":["00:0c:29:19:a4:82"],"os":{"family":"redhat","platform":"centos","name":"CentOS Linux","version":"7 (Core)","major":7,"minor":4,"patch":1708,"codename":"Core"},"timezone":"CST","timezone_offset_sec":28800,"id":"066e1f93781944ee92057f69996d3291"}}}
+2020-11-25T18:00:38.068+0800	INFO	[beat]	instance/beat.go:947	Process info	{"system_info": {"process": {"capabilities": {"inheritable":null,"permitted":["chown","dac_override","dac_read_search","fowner","fsetid","kill","setgid","setuid","setpcap","linux_immutable","net_bind_service","net_broadcast","net_admin","net_raw","ipc_lock","ipc_owner","sys_module","sys_rawio","sys_chroot","sys_ptrace","sys_pacct","sys_admin","sys_boot","sys_nice","sys_resource","sys_time","sys_tty_config","mknod","lease","audit_write","audit_control","setfcap","mac_override","mac_admin","syslog","wake_alarm","block_suspend"],"effective":["chown","dac_override","dac_read_search","fowner","fsetid","kill","setgid","setuid","setpcap","linux_immutable","net_bind_service","net_broadcast","net_admin","net_raw","ipc_lock","ipc_owner","sys_module","sys_rawio","sys_chroot","sys_ptrace","sys_pacct","sys_admin","sys_boot","sys_nice","sys_resource","sys_time","sys_tty_config","mknod","lease","audit_write","audit_control","setfcap","mac_override","mac_admin","syslog","wake_alarm","block_suspend"],"bounding":["chown","dac_override","dac_read_search","fowner","fsetid","kill","setgid","setuid","setpcap","linux_immutable","net_bind_service","net_broadcast","net_admin","net_raw","ipc_lock","ipc_owner","sys_module","sys_rawio","sys_chroot","sys_ptrace","sys_pacct","sys_admin","sys_boot","sys_nice","sys_resource","sys_time","sys_tty_config","mknod","lease","audit_write","audit_control","setfcap","mac_override","mac_admin","syslog","wake_alarm","block_suspend"],"ambient":null}, "cwd": "/root/filebeat-7.3.0-linux-x86_64", "exe": "/root/filebeat-7.3.0-linux-x86_64/filebeat", "name": "filebeat", "pid": 6617, "ppid": 21364, "seccomp": {"mode":"disabled"}, "start_time": "2020-11-25T18:00:37.410+0800"}}}
+2020-11-25T18:00:38.068+0800	INFO	instance/beat.go:292	Setup Beat: filebeat; Version: 7.3.0
+2020-11-25T18:00:38.068+0800	INFO	[publisher]	pipeline/module.go:97	Beat name: local220
+2020-11-25T18:00:38.068+0800	WARN	beater/filebeat.go:152	Filebeat is unable to load the Ingest Node pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the Ingest Node pipelines or are using Logstash pipelines, you can ignore this warning.
+2020-11-25T18:00:38.068+0800	INFO	instance/beat.go:421	filebeat start running.
+2020-11-25T18:00:38.068+0800	INFO	registrar/registrar.go:145	Loading registrar data from /root/filebeat-7.3.0-linux-x86_64/data/registry/filebeat/data.json
+2020-11-25T18:00:38.068+0800	INFO	[monitoring]	log/log.go:118	Starting metrics logging every 30s
+2020-11-25T18:00:38.069+0800	INFO	registrar/registrar.go:152	States Loaded from registrar: 17
+2020-11-25T18:00:38.069+0800	WARN	beater/filebeat.go:368	Filebeat is unable to load the Ingest Node pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the Ingest Node pipelines or are using Logstash pipelines, you can ignore this warning.
+2020-11-25T18:00:38.069+0800	INFO	crawler/crawler.go:72	Loading Inputs: 1
+2020-11-25T18:00:38.072+0800	INFO	log/input.go:148	Configured paths: [/home/ebs/logs/*.log]
+2020-11-25T18:00:38.072+0800	INFO	input/input.go:114	Starting input of type: log; ID: 5830166777152281936 
+2020-11-25T18:00:38.072+0800	INFO	crawler/crawler.go:106	Loading and starting Inputs completed. Enabled inputs: 1
+2020-11-25T18:00:38.073+0800	INFO	log/harvester.go:253	Harvester started for file: /home/ebs/logs/ebs-server.log
+2020-11-25T18:00:38.073+0800	INFO	log/harvester.go:253	Harvester started for file: /home/ebs/logs/ebs-task-consumer.log
+2020-11-25T18:00:39.885+0800	INFO	beater/filebeat.go:443	Stopping filebeat
+2020-11-25T18:00:39.885+0800	INFO	crawler/crawler.go:139	Stopping Crawler
+2020-11-25T18:00:39.885+0800	INFO	crawler/crawler.go:149	Stopping 1 inputs
+2020-11-25T18:00:39.885+0800	INFO	log/harvester.go:253	Harvester started for file: /home/ebs/logs/ebs-cooperate.log
+2020-11-25T18:00:39.885+0800	INFO	log/input.go:466	Scan aborted because input stopped.
+2020-11-25T18:00:39.885+0800	INFO	input/input.go:149	input ticker stopped
+2020-11-25T18:00:39.885+0800	INFO	log/harvester.go:253	Harvester started for file: /home/ebs/logs/ebs-producer.log
+2020-11-25T18:00:39.885+0800	INFO	input/input.go:167	Stopping Input: 5830166777152281936
+2020-11-25T18:00:39.885+0800	INFO	harvester/forwarder.go:52	Input outlet closed
+2020-11-25T18:00:39.885+0800	INFO	crawler/crawler.go:165	Crawler stopped
+2020-11-25T18:00:39.885+0800	INFO	registrar/registrar.go:367	Stopping Registrar
+2020-11-25T18:00:39.885+0800	INFO	registrar/registrar.go:293	Ending Registrar
+2020-11-25T18:00:39.886+0800	INFO	[monitoring]	log/log.go:153	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":0,"time":{"ms":6}},"total":{"ticks":10,"time":{"ms":25},"value":10},"user":{"ticks":10,"time":{"ms":19}}},"handles":{"limit":{"hard":655350,"soft":655350},"open":12},"info":{"ephemeral_id":"b16fcf1c-0b22-4971-8c78-40beed68a30a","uptime":{"ms":1827}},"memstats":{"gc_next":5009840,"memory_alloc":2975912,"memory_total":8325408,"rss":20508672},"runtime":{"goroutines":44}},"filebeat":{"events":{"active":4,"added":22,"done":18},"harvester":{"closed":4,"open_files":0,"running":0,"started":4}},"libbeat":{"config":{"module":{"running":0}},"output":{"type":"logstash"},"pipeline":{"clients":0,"events":{"active":1,"filtered":18,"total":19}}},"registrar":{"states":{"current":17,"update":18},"writes":{"success":19,"total":19}},"system":{"cpu":{"cores":8},"load":{"1":1.13,"15":0.46,"5":0.53,"norm":{"1":0.1412,"15":0.0575,"5":0.0663}}}}}}
+2020-11-25T18:00:39.886+0800	INFO	[monitoring]	log/log.go:154	Uptime: 1.828496014s
+2020-11-25T18:00:39.886+0800	INFO	[monitoring]	log/log.go:131	Stopping metrics logging.
+2020-11-25T18:00:39.886+0800	INFO	instance/beat.go:431	filebeat stopped.

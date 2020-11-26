@@ -1,9 +1,0 @@
-2020-11-24 16:47:00 | INFO  | http-nio-8740-exec-2 | com.bihu.tpd.task.PhilipsWorkOrderTask |
-                拉取督办单消耗test0zou=0 | [PhilipsWorkOrderTask.java:164]
-2020-11-24 16:48:00 | INFO  | http-nio-8740-exec-4 | com.bihu.tpd.task.PhilipsWorkOrderTask |
-                拉取服务单消耗test1zou=0 | [PhilipsWorkOrderTask.java:128]
-2020-11-24 16:49:48 | INFO  | AsyncResolver-bootstrap-executor-0 | com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver |
-               test2zou  Resolving eureka endpoints via configuration | [ConfigClusterResolver.java:43]
-2020-11-24 16:50:51 | INFO  | AsyncResolver-bootstrap-executor-0 | com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver |
-             test3zou   Resolving eureka endpoints via configuration | [ConfigClusterResolver.java:43]
-
